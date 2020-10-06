@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_raphael.mk
+    $(LOCAL_DIR)/statix_raphael.mk
+
+COMMON_LUNCH_CHOICES := \
+    statix_raphael-user \
+    statix_raphael-userdebug \
+    statix_raphael-eng
